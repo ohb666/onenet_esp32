@@ -92,6 +92,9 @@ sample_project/
 #define ACCESS_KEY     "*****"     // 设备密钥
 ```
 
+### Wifi配置
+Wifi的连接直接通过menuconfig中去进行修改即可
+
 ### 发送配置
 
 ```c
@@ -135,15 +138,12 @@ I (xxxx) TM: rec:temperature: Final parsed value = 25.400000
 ## 🐛 解决的技术问题
 
 1. **MQTT线程冲突**：通过统一MQTT操作到单线程解决
-2. **内存崩溃问题**：修复OneNET SDK内存管理问题
-3. **时间计算错误**：修正FreeRTOS时间计算
-4. **数据解析问题**：正确实现cJSON数据解析
+2. **时间计算错误**：修正FreeRTOS时间计算
+3. **数据解析问题**：正确实现cJSON数据解析
 
 ## 📖 文档
 
-- [OneNET API文档](./ONENET_API_DOCUMENTATION.md)
-- [内存修复总结](./MEMORY_FIX_SUMMARY.md)
-- [时间计算修复](./TIME_CALCULATION_FIX.md)
+具体可以查看库中的md手册介绍
 
 ## 🤝 贡献
 
