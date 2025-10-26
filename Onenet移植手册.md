@@ -129,4 +129,7 @@ int32_t tm_prop_temperature_wr_cb(void *data)
 
 如果你的物理模型也有`temperature`这个参数，你可以先用我的工程进行测试，后续在进行移植。
 
+
 然后目前我的工程就是一个最简单的配置，如果还需要**开启安全选项**的话，可以参考 `sample_project\mqtts_onejson_soc_v2.1.3 `中的`redme.md`文档进行配置一个宏定义即可。
+
+最后感谢你下载我的工程文件，如果能给个==Star==就更好了，感激不尽感激不尽！
