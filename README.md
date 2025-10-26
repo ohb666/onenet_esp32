@@ -87,9 +87,9 @@ sample_project/
 ### OneNET 平台配置
 
 ```c
-#define PRODUCT_ID     "WBF635dabK"     // OneNET产品ID
-#define DEVICE_NAME    "868909076827503"    // 设备名称
-#define ACCESS_KEY     "your-access-key"      // 设备密钥
+#define PRODUCT_ID     "*****"     // OneNET产品ID
+#define DEVICE_NAME    "*****"    // 设备名称
+#define ACCESS_KEY     "*****"     // 设备密钥
 ```
 
 ### 发送配置
