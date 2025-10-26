@@ -1,0 +1,5 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.pythonInstallPath": "D:\\esp32-idf-ahy\\5.1.2\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.portWin": "COM16"
+}
